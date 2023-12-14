@@ -1,0 +1,41 @@
+How the program works: 
+
+Building a model in simulink, resutls in several .h, .c and .o file which are header, source and object files respectively. 
+
+The main file, is the one that has the name of the simulink model with a .o generated from the source file of the same name. 
+
+This file contains a void funciton that called
+
+void <simulink model name>_step() which encapsulates all the computation in the simulink model.
+
+Looking under the header file "<simulink model name>.h you'll find the following structres: 
+
+<simulink model name>_P: Block parameters
+
+<simulink model name>_B: Block signals
+
+<simulink model name>_DW: Block states
+
+<simulink model name>_U: Inputs*
+
+<simulink model name>_Y: Outputs*
+
+* Inputs and Outputs refer to the Input and Output ports in the root level of the simulink model. 
+
+These variables are static during runtime, meaning their states persist during runtime, so in order to make a change to the inputs, you only need to: 
+
+include the <simulink model name>.h header file in your main source file 
+
+assign a value to the fields in the structure <simulink model name>_U
+
+run the function <simulink model name>_step(). 
+
+Current code: 
+	The main loop (while(1)) in the main function goes goes through the following: 
+	Start ADC with DMA in triggered mode, using the timer 1 update as trigger
+	Blocking read of all 6 ADC channels( 3 currents, bus voltage, potentiometer and temperature)
+	After conversion completion, write the feedback and reference values to their respective fields in input struct
+	Run the simulink model step function
+	Assign outputs to respective pwm duty cycles
+	Create the logging string and send over serial 
+	Wait until next time step
