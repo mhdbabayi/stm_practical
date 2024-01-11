@@ -2,7 +2,7 @@ mw_mbed_interface.o: \
  c:\programdata\matlab\supportpackages\r2022a\toolbox\target\supportpackages\stmnucleo\stm32f302r8\src\mw_mbed_interface.cpp \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/mbed_config.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/mbed/include/mw_mbed_interface.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmmbed/mbed/mbed.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmmbed/mbed/platform/mbed_version.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmmbed/mbed/platform/mbed_toolchain.h \
@@ -212,7 +212,7 @@ C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmn
 
 C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/mbed/include/mw_mbed_interface.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h:
 
 C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmmbed/mbed/mbed.h:
 

@@ -1,14 +1,14 @@
 rtGetInf.o: \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.c \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.c \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/mbed_config.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h
 
 C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/mbed_config.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h:

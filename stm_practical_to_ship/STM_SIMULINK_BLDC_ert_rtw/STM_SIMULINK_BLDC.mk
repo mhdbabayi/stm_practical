@@ -2,7 +2,7 @@
 ## Makefile generated for component 'STM_SIMULINK_BLDC'. 
 ## 
 ## Makefile     : STM_SIMULINK_BLDC.mk
-## Generated on : Thu Dec 14 16:37:39 2023
+## Generated on : Tue Jan 09 11:25:56 2024
 ## Final product: $(RELATIVE_PATH_TO_ANCHOR)/STM_SIMULINK_BLDC.elf
 ## Product type : executable
 ## 
@@ -23,7 +23,7 @@ MAKEFILE                  = STM_SIMULINK_BLDC.mk
 MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2022a
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2022a/bin
 MATLAB_ARCH_BIN           = $(MATLAB_BIN)/win64
-START_DIR                 = D:/stm_stuff/stm_practical_to_ship
+START_DIR                 = D:/stm_practical/stm_practical_to_ship
 SOLVER                    = 
 SOLVER_OBJ                = 
 CLASSIC_INTERFACE         = 0

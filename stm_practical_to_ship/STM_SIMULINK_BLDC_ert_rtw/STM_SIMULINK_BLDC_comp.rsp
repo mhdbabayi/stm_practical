@@ -1,5 +1,5 @@
--ID:/stm_stuff/stm_practical_to_ship
--ID:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw
+-ID:/stm_practical/stm_practical_to_ship
+-ID:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw
 -IC:/Program\ Files/MATLAB/R2022a/extern/include
 -IC:/Program\ Files/MATLAB/R2022a/simulink/include
 -IC:/Program\ Files/MATLAB/R2022a/rtw/c/src

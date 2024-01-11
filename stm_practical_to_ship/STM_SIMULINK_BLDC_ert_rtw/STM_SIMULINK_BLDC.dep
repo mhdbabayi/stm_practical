@@ -1,12 +1,12 @@
 STM_SIMULINK_BLDC.o: \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC.c \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC.c \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/mbed_config.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_types.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_types.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/TARGET_STM/TARGET_STM32F3/TARGET_STM32F302x8/device/stm32f3xx.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/TARGET_STM/TARGET_STM32F3/TARGET_STM32F302x8/device/stm32f302x8.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/3P.instrset/cmsis.instrset/CMSIS/Include/core_cm4.h \
@@ -75,22 +75,22 @@ STM_SIMULINK_BLDC.o: \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/STM32F302R8/include/MW_MbedPinInterface.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/armcortexmbase/scheduler/include/SysTickScheduler.h \
  C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/armcortexmbase/scheduler/include/arm_cortex_m_multitasking.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h \
- D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_private.h
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h \
+ D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_private.h
 
 C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/mbed_config.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtwtypes.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_types.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_types.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rtGetInf.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/rt_nonfinite.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h:
 
 C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/stmnucleo/mbed/NUCLEO_F302R8/TARGET_STM/TARGET_STM32F3/TARGET_STM32F302x8/device/stm32f3xx.h:
 
@@ -228,6 +228,6 @@ C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/armc
 
 C:/ProgramData/MATLAB/SupportPackages/R2022a/toolbox/target/supportpackages/armcortexmbase/scheduler/include/arm_cortex_m_multitasking.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/MW_target_hardware_resources.h:
 
-D:/stm_stuff/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_private.h:
+D:/stm_practical/stm_practical_to_ship/STM_SIMULINK_BLDC_ert_rtw/STM_SIMULINK_BLDC_private.h:
