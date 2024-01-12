@@ -56,7 +56,7 @@ TIM_HandleTypeDef htim16;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-uint16_t adc_dma_buffer[6];
+uint16_t adc_dma_buffer[6] = {0};
 uint8_t serial_buf[150];
 uint16_t main_start_time;
 /* USER CODE END PV */
@@ -139,7 +139,7 @@ int main(void)
 	  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, STM_SIMULINK_BLDC_Y.pwm_1);
 	  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, STM_SIMULINK_BLDC_Y.pwm_2);
 	  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_3, STM_SIMULINK_BLDC_Y.pwm_3);
-
+		/*
 	  sprintf((char*)serial_buf, "%u,%u,%u,%u,%u,%u\r\n",
 	      													adc_dma_buffer[CURRENT_PHA_DMA_IDX],
 	      													adc_dma_buffer[CURRENT_PHB_DMA_IDX],
@@ -148,6 +148,7 @@ int main(void)
 	      													adc_dma_buffer[POTENTIOMETER_DMA_IDX],
 	      													adc_dma_buffer[TEMPERATURE_DMA_IDX]);
 	  HAL_UART_Transmit(&huart2, serial_buf, strlen(serial_buf), HAL_MAX_DELAY);
+		HAL_UART_Transmit(&huart2, (char*)adc_dma_buffer, 12, HAL_MAX_DELAY);
 	  while(__HAL_TIM_GET_COUNTER(&htim16) - main_start_time <100){}
 	  /* USER CODE END WHILE */
 
@@ -522,6 +523,10 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
+	if(GPIO_Pin == GPIO_PIN_13)
+		STM_SIMULINK_BLDC_U.push_button = !STM_SIMULINK_BLDC_U.push_button;
+}
 
 /* USER CODE END 4 */
 
